@@ -17,7 +17,7 @@ declare module "pg" {
         user?: string;
         database?: string;
         password?: string;
-        port?: number;
+        port?: number | string;
         host?: string;
     }
 
